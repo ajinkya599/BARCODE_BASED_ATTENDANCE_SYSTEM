@@ -1,0 +1,10 @@
+﻿Build started 3/11/2015 2:27:49 PM.
+     1>Project "C:\Users\ajinkya\Desktop\FINAL\Group-No-4-v1.8\bba_project\bba_project\crime_project\crime_project.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1635,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.VisualBasic.PowerPacks.Vs". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+     1>Link:
+         crime_project.vcxproj -> C:\Users\ajinkya\Desktop\FINAL\Group-No-4-v1.8\bba_project\bba_project\Release\bba_project.exe
+     1>Done Building Project "C:\Users\ajinkya\Desktop\FINAL\Group-No-4-v1.8\bba_project\bba_project\crime_project\crime_project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.28

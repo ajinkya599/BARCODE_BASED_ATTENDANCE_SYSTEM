@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "examples", "examples.vcxproj", "{206A5AC5-32F8-4891-868C-8EF2F30F192F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E4416F1C-29A4-4D0B-B3D0-938497033581} = {E4416F1C-29A4-4D0B-B3D0-938497033581}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libbarpp", "libbarpp.vcxproj", "{E4416F1C-29A4-4D0B-B3D0-938497033581}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{206A5AC5-32F8-4891-868C-8EF2F30F192F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{206A5AC5-32F8-4891-868C-8EF2F30F192F}.Debug|Win32.Build.0 = Debug|Win32
+		{206A5AC5-32F8-4891-868C-8EF2F30F192F}.Release|Win32.ActiveCfg = Release|Win32
+		{206A5AC5-32F8-4891-868C-8EF2F30F192F}.Release|Win32.Build.0 = Release|Win32
+		{E4416F1C-29A4-4D0B-B3D0-938497033581}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E4416F1C-29A4-4D0B-B3D0-938497033581}.Debug|Win32.Build.0 = Debug|Win32
+		{E4416F1C-29A4-4D0B-B3D0-938497033581}.Release|Win32.ActiveCfg = Release|Win32
+		{E4416F1C-29A4-4D0B-B3D0-938497033581}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

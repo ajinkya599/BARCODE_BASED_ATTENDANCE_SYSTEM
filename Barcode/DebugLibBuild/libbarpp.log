@@ -1,0 +1,54 @@
+﻿Build started 2/18/2015 1:35:54 PM.
+     1>Project "C:\Users\ajinkya\Documents\Assignment_2\Group-No-4-1.7\Barcode\libbarpp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D BARAPI_EXPORT /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"DebugLibBuild\\" /Fd"DebugLibBuild\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BarBitmapWin32.cpp BarGenerator.cpp BarGeneratorCode128.cpp BarGeneratorCode25.cpp BarGeneratorCode39.cpp BarGeneratorCode93.cpp BarGeneratorEan13.cpp BarGeneratorEan8.cpp BarNoise.cpp BarReader.cpp BarReaderCode128.cpp BarReaderCode25.cpp BarReaderCode39.cpp BarReaderCode93.cpp BarReaderEan13.cpp BarReaderEan8.cpp EasyBMP\EasyBMP.cpp EasyBMP\EasyBMP_win32.cpp libbarpp.cpp
+         libbarpp.cpp
+         EasyBMP_win32.cpp
+         EasyBMP.cpp
+         BarReaderEan8.cpp
+         BarReaderEan13.cpp
+         BarReaderCode93.cpp
+         BarReaderCode39.cpp
+         BarReaderCode25.cpp
+         BarReaderCode128.cpp
+         BarReader.cpp
+         BarNoise.cpp
+         BarGeneratorEan8.cpp
+         BarGeneratorEan13.cpp
+         BarGeneratorCode93.cpp
+         BarGeneratorCode39.cpp
+         BarGeneratorCode25.cpp
+         BarGeneratorCode128.cpp
+         BarGenerator.cpp
+         BarBitmapWin32.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"DebugLibBuild\libbarpp.res" libbarpp.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ajinkya\Documents\Assignment_2\Group-No-4-1.7\Barcode\Debug\libbarpp.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ajinkya\Documents\Assignment_2\Group-No-4-1.7\Barcode\Debug\libbarpp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ajinkya\Documents\Assignment_2\Group-No-4-1.7\Barcode\Debug\libbarpp.lib" /MACHINE:X86 /DLL DebugLibBuild\libbarpp.res
+         DebugLibBuild\BarBitmapWin32.obj
+         DebugLibBuild\BarGenerator.obj
+         DebugLibBuild\BarGeneratorCode128.obj
+         DebugLibBuild\BarGeneratorCode25.obj
+         DebugLibBuild\BarGeneratorCode39.obj
+         DebugLibBuild\BarGeneratorCode93.obj
+         DebugLibBuild\BarGeneratorEan13.obj
+         DebugLibBuild\BarGeneratorEan8.obj
+         DebugLibBuild\BarNoise.obj
+         DebugLibBuild\BarReader.obj
+         DebugLibBuild\BarReaderCode128.obj
+         DebugLibBuild\BarReaderCode25.obj
+         DebugLibBuild\BarReaderCode39.obj
+         DebugLibBuild\BarReaderCode93.obj
+         DebugLibBuild\BarReaderEan13.obj
+         DebugLibBuild\BarReaderEan8.obj
+         DebugLibBuild\EasyBMP.obj
+         DebugLibBuild\EasyBMP_win32.obj
+         DebugLibBuild\libbarpp.obj
+            Creating library C:\Users\ajinkya\Documents\Assignment_2\Group-No-4-1.7\Barcode\Debug\libbarpp.lib and object C:\Users\ajinkya\Documents\Assignment_2\Group-No-4-1.7\Barcode\Debug\libbarpp.exp
+         libbarpp.vcxproj -> C:\Users\ajinkya\Documents\Assignment_2\Group-No-4-1.7\Barcode\Debug\libbarpp.dll
+     1>Done Building Project "C:\Users\ajinkya\Documents\Assignment_2\Group-No-4-1.7\Barcode\libbarpp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.67

@@ -1,0 +1,52 @@
+﻿Build started 2/17/2015 10:01:08 PM.
+     1>Project "C:\Users\ajinkya\Desktop\Assignment_2\backups\backup_0\v1.5 final\bba_project\bba_project\crime_project\crime_project.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (crime_project.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1635,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.VisualBasic.PowerPacks.Vs". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\bba_project.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.VisualBasic.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\MySQL\Connector.NET 6.9\Assemblies\v4.5\MySql.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\bba_project.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.VisualBasic.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\MySQL\Connector.NET 6.9\Assemblies\v4.5\MySql.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib AssemblyInfo.cpp crime_project.cpp dbconnect.cpp Form1.cpp Form_admin.cpp Form_attd.cpp Form_prof2.cpp Form_records.cpp Form_users.cpp Form_viewall.cpp login.cpp select_attd.cpp verifier.cpp
+         AssemblyInfo.cpp
+     1>AssemblyInfo.cpp(40): warning C4947: 'RequestMinimum' : marked as obsolete
+                 Message: 'Assembly level declarative security is obsolete and is no longer enforced by the CLR by default. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.'
+         crime_project.cpp
+         dbconnect.cpp
+     1>dbconnect.cpp(113): warning C4101: 'e' : unreferenced local variable
+     1>dbconnect.cpp(222): warning C4101: 'e' : unreferenced local variable
+         Form1.cpp
+         Form_admin.cpp
+         Form_attd.cpp
+         Form_prof2.cpp
+         Form_records.cpp
+         Form_users.cpp
+         Form_viewall.cpp
+         login.cpp
+         select_attd.cpp
+         verifier.cpp
+     1>verifier.cpp(28): warning C4101: 'e' : unreferenced local variable
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ajinkya\Desktop\Assignment_2\backups\backup_0\v1.5 final\bba_project\bba_project\Debug\bba_project.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\crime_project.Form1.resources /ASSEMBLYRESOURCE:Debug\crime_project.Form_admin.resources /ASSEMBLYRESOURCE:Debug\crime_project.Form_attd.resources /ASSEMBLYRESOURCE:Debug\crime_project.Form_prof2.resources /ASSEMBLYRESOURCE:Debug\crime_project.Form_records.resources /ASSEMBLYRESOURCE:Debug\crime_project.Form_users.resources /ASSEMBLYRESOURCE:Debug\crime_project.Form_viewall.resources /ASSEMBLYRESOURCE:Debug\crime_project.login.resources /ASSEMBLYRESOURCE:Debug\crime_project.select_attd.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ajinkya\Desktop\Assignment_2\backups\backup_0\v1.5 final\bba_project\bba_project\Debug\bba_project.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\crime_project.obj
+         Debug\dbconnect.obj
+         Debug\Form1.obj
+         Debug\Form_admin.obj
+         Debug\Form_attd.obj
+         Debug\Form_prof2.obj
+         Debug\Form_records.obj
+         Debug\Form_users.obj
+         Debug\Form_viewall.obj
+         Debug\login.obj
+         Debug\select_attd.obj
+         Debug\stdafx.obj
+         Debug\verifier.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         crime_project.vcxproj -> C:\Users\ajinkya\Desktop\Assignment_2\backups\backup_0\v1.5 final\bba_project\bba_project\Debug\bba_project.exe
+     1>Done Building Project "C:\Users\ajinkya\Desktop\Assignment_2\backups\backup_0\v1.5 final\bba_project\bba_project\crime_project\crime_project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.08

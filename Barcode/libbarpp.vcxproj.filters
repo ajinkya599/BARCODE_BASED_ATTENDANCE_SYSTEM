@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="EasyBMP">
+      <UniqueIdentifier>{7ac4bdb0-c474-4eda-841b-c5f245b1006a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EasyBMP\EasyBMP.cpp">
+      <Filter>EasyBMP</Filter>
+    </ClCompile>
+    <ClCompile Include="BarBitmapWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BarGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BarGeneratorEan13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyBMP\EasyBMP_win32.cpp">
+      <Filter>EasyBMP</Filter>
+    </ClCompile>
+    <ClCompile Include="BarGeneratorEan8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BarGeneratorCode128.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BarGeneratorCode39.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BarGeneratorCode93.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BarGeneratorCode25.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BarNoise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BarReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BarReaderEan13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BarReaderEan8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BarReaderCode128.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BarReaderCode39.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BarReaderCode93.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BarReaderCode25.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libbarpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BarBitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP\EasyBMP.h">
+      <Filter>EasyBMP</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP\EasyBMP_BMP.h">
+      <Filter>EasyBMP</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP\EasyBMP_DataStructures.h">
+      <Filter>EasyBMP</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP\EasyBMP_VariousBMPutilities.h">
+      <Filter>EasyBMP</Filter>
+    </ClInclude>
+    <ClInclude Include="BarBitmapWin32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BarGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BarAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BarGeneratorEan13.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP\EasyBMP_win32.h">
+      <Filter>EasyBMP</Filter>
+    </ClInclude>
+    <ClInclude Include="BarGeneratorEan8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BarGeneratorCode128.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BarGeneratorCode39.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BarGeneratorCode93.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BarGeneratorCode25.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BarNoise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BarReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BarReaderEan13.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BarReaderEan8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BarReaderCode128.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BarReaderCode39.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BarReaderCode93.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BarReaderCode25.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="libbarpp.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="extra\font_num.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="extra\font_upper.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="extra\font_lower.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
