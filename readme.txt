@@ -51,3 +51,5 @@ V-OTHER IMPORTANT GUIDELINES :
 
 		ADMIN     Username : nikit
 			  Password : nikit
+
+	4) Some Test Barcode Images are provided in the main folder
